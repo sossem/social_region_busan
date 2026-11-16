@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>부산 홍보 대사</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top no-print">
+    <div class="top-row">
+      <div class="brand"><span class="brand-wave" aria-hidden="true">🌊</span> 부산 홍보 대사</div>
+      <div class="top-right">
+        <span id="who" class="who"></span>
+        <button type="button" class="btn btn-ghost btn-small" data-act="reset">처음부터 다시</button>
+      </div>
+    </div>
+    <nav id="progress" class="progress" aria-label="진행 단계"></nav>
+  </header>
+
+  <main id="main" class="main"></main>
+
+  <footer id="nav" class="nav no-print"></footer>
+
+  <dialog id="dlg" class="dlg"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="data/methods.js"></script>
+  <script src="data/articles.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
